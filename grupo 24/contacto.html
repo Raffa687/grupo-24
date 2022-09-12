@@ -14,6 +14,7 @@
         <nav class="contacto">
             <a href="#" class="enlace"> <img src="css/img/transparent-oktoberfest-2020-festival-oktoberfest-celebrations-62ddfe8a634f80.4514910316587157864068.png" alt="Logobar" class="logo"></a>
             <ul>
+                <li><a class="menu" href="index.html">Home</a></li>
                 <li><a class="menu" href="eventos.html">Eventos</a></li>
                 <li><a class="menu" href="fotos.html">Fotos</a></li>
                 <li><a class="menu" href="nosotros.html">Nosotros</a></li>
@@ -21,3 +22,41 @@
             </ul>
         </nav>
     </header>
+
+    <form action="" method="post">
+        <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre" size="30">
+        </p>
+        <p>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido" size="30">
+        </p>
+        <p><label for="edad">Edad:
+            <input type="number" name="edad" id="edad" value="18" min="18" max="99" step="2">
+        </label>
+        </p>
+        <label for="email">email:</label>
+        <input type="text" name="email" id="email" placeholder="ingrese su email" size="40">
+        </p>
+        <label for="telefono">telefono:</label>
+        <input type="text" name="telefono" id="telefono" placeholder="ingrese su telefono" size="30">
+        </p>
+
+
+<h3>Bedidas preferidas</h3>
+        <p><label><input type="checkbox" name="bebida" value="cervezas"> cervezas</label></p>
+        <p><label><input type="checkbox" name="bebida" value="vinos"> vinos</label></p>
+        <p><label><input type="checkbox" name="bebida" value="whiskies"> whiskies</label></p>
+        <p><label><input type="checkbox" name="bebida" value="cocktails"> cocktails</label></p>
+<br>
+            <h3>Bebidas preferidas</h3>
+                <p><label><input type="radio" name="bebida" value="cervezas" checked> cervezas</label></p>
+                <p><label><input type="radio" name="bebida" value="vinos"> vinos</label></p>
+                <p><label><input type="radio" name="bebida" value="whiskies"> whiskies</label></p>
+                <p><label><input type="radio" name="bebida" value="cocktails"> cocktails</label></p>
+                          
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
