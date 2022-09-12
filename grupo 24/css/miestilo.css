@@ -162,3 +162,17 @@ a.menu:hover {
     width: 100%;
     /* le deamos el largo total de la pantalla por eso el %*/
 }
+
+.index {
+    background-image: url("img/una\ tapita.jpg");
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+
+.contacto {
+    background-image: url("img/una\ tapita\ contacto.jpg";
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
